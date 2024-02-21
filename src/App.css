@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.schoolField,
+.workField {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#btn {
+  margin: 10px 0;
+}
+
+.previewField {
+  border: 1px solid black;
+  margin: 5px 0;
+}
+
+.previewDiv h2,
+.previewDiv h3 {
+  font-size: small;
+  margin: 0;
+}
+
+.previewRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
